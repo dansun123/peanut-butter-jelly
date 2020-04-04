@@ -1,0 +1,68 @@
+.card {
+    position: absolute
+
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  }
+
+.p0 {
+    top: 0px;
+    right: 0px;
+    float: right
+}
+.p1 {
+    top: 0px;
+    left: 0px;
+    float: left
+}
+.p2 {
+    bottom: 0px;
+    left: 0px;
+    float: left
+}
+.p3 {
+    bottom: 0px;
+    right: 0px;
+    float: right
+}
+
+.row {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: inherit;
+    -ms-flex-pack: inherit;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%!important;
+}
+
+.column {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.player {
+    display: inline-block;
+    margin-top: 7rem;
+}
